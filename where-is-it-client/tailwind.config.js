@@ -1,0 +1,27 @@
+import daisyui from 'daisyui';
+// eslint-disable-next-line no-undef
+const flowbite = require("flowbite-react/tailwind");
+
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js", // Add Flowbite's components to the content
+    flowbite.content(),
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        montserrat: "Montserrat, serif",
+        marckScript: "Marck Script, serif",
+      }
+    },
+  },
+  plugins: [
+    daisyui,
+    flowbite.plugin(),
+  ],
+}
+
