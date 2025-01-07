@@ -70,6 +70,51 @@ WhereIsIt is a lost and found platform designed to help people reconnect with th
 
 ---
 
+---
+
+## How to Run the Project Locally
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd whereisit
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the app in your browser:
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add the following variables:
+
+```env
+VITE_API_URL=http://localhost:5000
+ACCESS_TOKEN_SECRET=your_jwt_secret
+```
+
+Replace `your_jwt_secret` with your JWT secret key.
+
+---
+
+
 ## API Endpoints
 
 The project communicates with a Node.js/Express backend and MongoDB database. Key API endpoints:
