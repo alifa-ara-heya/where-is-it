@@ -69,6 +69,30 @@ WhereIsIt is a lost and found platform designed to help people reconnect with th
 15. **Framer Motion** - For a simple animated object.
 
 ---
+# Project Dependencies
+
+Here is a list of the dependencies used in this project along with their versions:
+
+- **axios**: `^1.7.9`
+- **date-fns**: `^4.1.0`
+- **firebase**: `^11.1.0`
+- **flowbite**: `^2.5.2`
+- **flowbite-react**: `^0.10.2`
+- **localforage**: `^1.10.0`
+- **lottie-react**: `^2.4.0`
+- **match-sorter**: `^8.0.0`
+- **motion**: `^11.15.0`
+- **prop-types**: `^15.8.1`
+- **react**: `^18.3.1`
+- **react-datepicker**: `^7.5.0`
+- **react-dom**: `^18.3.1`
+- **react-helmet-async**: `^2.0.5`
+- **react-hot-toast**: `^2.4.1`
+- **react-icons**: `^5.4.0`
+- **react-router-dom**: `^7.1.0`
+- **react-simple-typewriter**: `^5.0.1`
+- **sort-by**: `^1.2.0`
+- **sweetalert2**: `^11.15.3`
 
 ---
 
