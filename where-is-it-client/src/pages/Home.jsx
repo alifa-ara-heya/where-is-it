@@ -5,6 +5,7 @@ import Review from "../components/Review";
 import WhyUs from "../components/WhyUs";
 import Aims from "../components/Aims";
 import { Helmet } from "react-helmet-async";
+import Newsletter from "../components/Newsletter";
 
 const Home = () => {
     return (
@@ -28,6 +29,8 @@ const Home = () => {
             <LatestItems />
 
             <Aims />
+
+            <Newsletter />
         </div>
     );
 };
