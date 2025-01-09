@@ -11,6 +11,8 @@ import AllRecoveredItems from "../pages/AllRecoveredItems";
 import MyItems from "../pages/MyItems";
 import PostDetails from "../pages/PostDetails";
 import UpdatePost from '../pages/UpdatePost';
+import Contact from "../components/Contact";
+import FAQ from "../components/FAQ";
 
 const router = createBrowserRouter(
     [
@@ -26,6 +28,14 @@ const router = createBrowserRouter(
                 {
                     path: 'allItems',
                     element: <AllItems />
+                },
+                {
+                    path: 'contact',
+                    element: <Contact />
+                },
+                {
+                    path: 'faq',
+                    element: <FAQ />
                 },
                 {
                     path: 'login',
