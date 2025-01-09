@@ -8,7 +8,7 @@ const Footer = () => {
     const { user } = useContext(AuthContext)
 
     return (
-        <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
+        <footer className="footer footer-center bg-cyan-900 text-white rounded p-10">
             <Link to='/' className="">
                 <img src={logo} alt="" className="h-[80px] hover:scale-95 transition ease-in-out" />
             </Link>
