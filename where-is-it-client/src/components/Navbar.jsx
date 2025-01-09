@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProvider";
 
 const Navbar = () => {
+    //todo: make navbar responsive for mobile
     const { user, signOutUser } = useContext(AuthContext)
     return (
         <div className="bg-cyan-900 text-white sticky top-0 z-50 mb-6 backdrop-blur-md">
