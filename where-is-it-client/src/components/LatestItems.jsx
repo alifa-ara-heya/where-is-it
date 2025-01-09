@@ -14,7 +14,7 @@ const LatestItems = () => {
     useEffect(() => {
         const fetchSixSortedJobs = async () => {
             try {
-                const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/allPosts?sort=desc&limit=6`)
+                const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/allPosts?sort=desc&limit=4`)
                 setLatestPosts(data)
             } catch (err) {
                 console.log(err);
@@ -33,7 +33,7 @@ const LatestItems = () => {
     return (
         <div>
             <Heading title={'Latest Posts'} subtitle={'Discover the most recently added lost and found items. Stay updated and help reunite belongings with their rightful owners. Browse the latest posts or explore all items to find what you’re looking for!'} />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
                 {
                     latestPosts.map(post => <PostCard key={post._id} post={post} />)
                 }
