@@ -41,13 +41,13 @@ const FAQ = () => {
     };
 
     return (
-        <div className="w-11/12 mx-auto max-w-[1440px] py-10">
+        <div className="w-11/12 mx-auto max-w-[1440px] pb-10">
             <Heading
                 title="Frequently Asked Questions"
                 subtitle="Got questions? We’ve got answers! Here are some of the most frequently asked questions about WhereIsIt."
             />
 
-            <div className="space-y-4 mt-8">
+            <div className="space-y-4">
                 {faqData.map((faq) => (
                     <div
                         key={faq.id}
