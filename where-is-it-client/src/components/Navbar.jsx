@@ -7,7 +7,7 @@ const Navbar = () => {
     //todo: make navbar responsive for mobile
     const { user, signOutUser } = useContext(AuthContext)
     return (
-        <div className="bg-cyan-900 text-white sticky top-0 z-50 mb-6 backdrop-blur-md">
+        <div className="bg-cyan-900 text-white lg:sticky top-0 z-50 mb-6 backdrop-blur-md">
             <div className="navbar w-11/12 mx-auto pt-3 flex-col md:flex-row max-w-[1440px] ">
                 <div className="flex-1">
                     <Link to='/' className="text-lg md:text-3xl font-bold flex gap-2 items-center justify-center hover:scale-95 transition ease-in-out duration-200">
@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none">
                     <ul className='menu menu-horizontal px-1 text-xs md:text-base flex-col justify-center items-center md:flex-row'>
-                        <li>
+                        <li className="">
                             <Link to='/'>Home</Link>
                         </li>
                         <li>

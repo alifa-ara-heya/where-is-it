@@ -8,3 +8,8 @@ html {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+
+a.active {
+  background-color: white;
+  color: cornflowerblue;
+}
