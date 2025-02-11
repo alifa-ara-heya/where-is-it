@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../assets/logo.png'
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProvider";
@@ -17,20 +17,20 @@ const Navbar = () => {
                 <div className="flex-none">
                     <ul className='menu menu-horizontal px-1 text-xs md:text-base flex-col justify-center items-center md:flex-row'>
                         <li className="active:bg-cyan-900 active:text-white focus:bg-cyan-900 focus:text-white ">
-                            <Link to='/'>Home</Link>
+                            <NavLink to='/'>Home</NavLink>
                         </li>
                         <li>
-                            <Link to='/allItems'>Lost and Found Items</Link>
+                            <NavLink to='/allItems'>Lost and Found Items</NavLink>
                         </li>
                         <li>
-                            <Link to='/contact'>Contact Us</Link>
+                            <NavLink to='/contact'>Contact Us</NavLink>
                         </li>
                         <li>
-                            <Link to='/faq'>FAQ</Link>
+                            <NavLink to='/faq'>FAQ</NavLink>
                         </li>
                         {!user && (
                             <li>
-                                <Link to='/login'>Login</Link>
+                                <NavLink to='/login'>Login</NavLink>
                             </li>
                         )}
                         {user && (
