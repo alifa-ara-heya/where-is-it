@@ -1,9 +1,9 @@
 
 const Newsletter = () => {
     return (
-        <div className="w-11/12 mx-auto mb-16 max-w-[1440px] bg-gradient-to-r from-yellow-100 via-white to-amber-100 shadow-lg rounded-lg p-10 md:my-16 my-10">
+        <div className="w-11/12 mx-auto mb-16 max-w-[1440px] bg-gradient-to-r from-cyan-100 via-white to-sky-100-100 shadow-lg rounded-lg p-10 md:my-16 my-10">
             <div className="text-center">
-                <h2 className="text-3xl font-bold text-amber-600">
+                <h2 className="text-3xl font-bold text-cyan-600">
                     Join Our Newsletter
                 </h2>
                 <p className="text-lg text-gray-600 mt-4 lg:w-3/4 mx-auto">
@@ -14,7 +14,7 @@ const Newsletter = () => {
                 <input
                     type="email"
                     placeholder="Enter your email address"
-                    className="input input-bordered w-full md:w-2/3 lg:w-1/2 px-4 py-3   rounded-md focus:ring-2 focus:ring-amber-500"
+                    className="input input-bordered w-full md:w-2/3 lg:w-1/2 px-4 py-3   rounded-md focus:ring-1 focus:ring-cyan-300"
                 />
                 <button
                     type="submit"
