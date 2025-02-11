@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none">
                     <ul className='menu menu-horizontal px-1 text-xs md:text-base flex-col justify-center items-center md:flex-row'>
-                        <li className="">
+                        <li className="active:bg-cyan-900 active:text-white focus:bg-cyan-900 focus:text-white ">
                             <Link to='/'>Home</Link>
                         </li>
                         <li>
